@@ -1,0 +1,117 @@
+.Container{
+    margin:0 auto;
+    width:1200px;
+    padding-top: 0px;
+   
+  }
+.firstChildContainer{
+    padding-left: 20px;
+    height:250px;
+    display: flex;
+}
+.buttonsContainer{
+   padding-top: 70px;
+    padding-left: 10px;
+}
+
+button{
+  width:120px;
+    border-radius:5px;
+  
+}
+button:hover{
+    background-color:#083847;
+    color:white;
+}
+.home{
+    background-color:#083847;  
+    color:white;
+}
+.secondChildContainer{
+    padding-left: 20px;
+    display: flex;
+ 
+    background-color: #DFEFF5;
+    
+    
+}  
+
+.pictures{
+    display:flex;
+    flex-direction: row;
+   
+}
+.pic img{
+  height: 150px;
+  width:150px;
+ 
+  border-radius: 100%;
+  margin-right:20px;
+ margin-top: -20%;
+ 
+
+}
+.smile{
+    margin-top: -10%;
+}
+.thirdChildContainer{
+    padding-left: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.firstPart{
+   
+    width:400px;
+}  
+
+.thirdPart{
+  
+    width:400px;
+}
+.fourthChildContainer{
+    padding-left: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2EFED
+
+}
+.address{
+   
+    height:200px;
+    width:200px;
+
+}
+.socialSites{
+    display: flex;
+   justify-content: center;
+} 
+h4{
+    color:#2F3461;
+}
+
+p{
+    color:#5A5A5C;
+}
+.copyright{
+    color: #AFAFB3;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #F2EFED;
+}
+.address{
+    text-align: center;
+    line-height: 0.4;
+}
+h5{
+    color:#87878A;
+}
+.date{
+    color:#98999C
+}
+.discuss{
+    display: flex;
+  padding: 5px;
+}
